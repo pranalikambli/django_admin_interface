@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+{% load static%}
+{% block content %}
+
+	<div class="col-md-16 single-main">
+	  <div class="single-grid">
+		  <h1>{{blog_object.title}}</h1>
+		  <br/>
+		  <br/>
+		  <img src="{% static '/images/post1.jpg' %}" alt=""/>
+		  <p>{{blog_object.content|safe}}</p>
+	  </div>
+	  <!---728x90--->
+
+	 <ul class="comment-list">
+	   <h5 class="post-author_head">Written by <a href="#" title="Posts by admin" rel="author">{{blog_object.published_at | date:"M d, Y"}} by {{blog_object.author}}</a></h5>
+	   <li>
+			<div class="desc">
+			</div>
+			<div class="clearfix"></div>
+	   </li>
+	  </ul>
+	</div>
+	  <div class="clearfix"></div>
+{% endblock %}
