@@ -3,16 +3,40 @@ Django Admin Interface
 
 In this project I have covered the how toregister model in django admin and how to show data at frontend.
 
-For Django installation and Django related projects check our blogs.
-https://techpluslifestyle.com/
+Running the Project Locally First, clone the repository to your local machine.
+```bash
+git clone https://github.com/pranalikambli/django_admin_interface.git
+```
 
+For Python & Django Installation check our blogs.
 
-SetUp
+For Windows : https://techpluslifestyle.com/technology/how-to-install-django-3-on-windows
 
-1) clone the project using git clone https://github.com/pranalikambli/django_admin_interface.git
-2) setup virtual environment.
-   a) For windows : https://techpluslifestyle.com/technology/how-to-install-django-3-on-windows/
-   b) For Ubuntu : https://techpluslifestyle.com/technology/how-to-install-django-3-on-ubuntu/
-3) After setting up the virtual environment activate it and install the packages in requirement.txt using pip install -r requirements.txt
-4) migrate the database using python manage.python migrate
+For Ubuntu :  https://techpluslifestyle.com/technology/how-to-install-django-3-on-ubuntu/
 
+Database : Sqlite (Django's Default DB)
+
+Install the requirements.
+```bash
+pip install -r requirements.txt
+```
+
+Apply the migrations.
+```bash
+python manage.py migrate 
+```
+```bash
+python manage.py makemigrations blog
+```
+```bash
+python manage.py migrate
+```
+
+```bash
+python manage.py migrate
+# Running the Project Locally
+
+```bash
+python manage.py runserver 
+```
+The project will be available at 127.0.0.1:8000
