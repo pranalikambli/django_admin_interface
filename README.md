@@ -1,7 +1,7 @@
 # django_admin_interface
 Django Admin Interface
 
-In this project I have covered the how toregister model in django admin and how to show data at frontend.
+In this project I have covered the how to register model in django admin and how to show data at frontend.
 
 Running the Project Locally First, clone the repository to your local machine.
 ```bash
